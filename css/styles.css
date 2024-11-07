@@ -61,11 +61,22 @@ body {
 .navbar-menu > * + * {
      margin-left: 40px;
 }
-.address-info {
+.navbar-menu li a {
+     display: inline-block;
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     letter-spacing: 0.02em;
+     text-align: left;
+     color: rgba(46, 47, 66, 1);
+     text-decoration: none;
+}
+.address {
     font-style: normal
 }
 .call-info {
-    font-size: 16px;
+          font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
@@ -93,11 +104,11 @@ body {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
     text-decoration: none;
-    color: #434455;
+    color: rgba(67, 68, 85, 1);
 }
 
 
