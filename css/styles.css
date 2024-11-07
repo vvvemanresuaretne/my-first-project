@@ -72,9 +72,10 @@ body {
      color: rgba(46, 47, 66, 1);
      text-decoration: none;
 }
-.adress-nav {
+header address[class~="addres"] {
     font-style: normal;
 }
+
 .call-info {
     font-size: 16px;
         line-height: 1.5;
