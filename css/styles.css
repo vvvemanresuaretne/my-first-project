@@ -72,15 +72,20 @@ body {
      color: rgba(46, 47, 66, 1);
      text-decoration: none;
 }
-.menu-nav {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-
+.adress-nav {
+    font-style: normal;
 }
-.address-nav {
-    font-style: normal
+.call-info {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.call-back a:focus {
+    color: #404bbf
+}
+.call-back a:hover {
+    color: #404bbf
 }
 .call-back  {
     list-style-type: none;
