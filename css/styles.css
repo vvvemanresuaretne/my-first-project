@@ -23,92 +23,85 @@ body {
 .header {
     width: 100%;
     height: 72px;
-    color: #fff;   
+    color: #fff;
 }
- .navbar {
+
+.navbar {
     height: inherit;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     margin-left: 156px;
     margin-right: 56px;
- }
+}
+
 .logo {
-      font-family: Raleway, sans-serif;
-      font-size: 18px;
-      font-weight: 700;
-      letter-spacing: 0.03em;
-      line-height: 1.17;
-      text-align: left;
-      color: rgba(77, 90, 229, 1);
-      text-transform: uppercase;
-      text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-align: left;
+    color: rgba(77, 90, 229, 1);
+    text-transform: uppercase;
+    text-decoration: none;
 }
+
 .brand-logo {
-      font-family: Raleway, sans-serif;
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-align: left;
-      color: rgba(46, 47, 66, 1);
-      text-transform: uppercase;
-      text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(46, 47, 66, 1);
+    text-transform: uppercase;
+    text-decoration: none;
 }
+
 .navbar-menu li {
-     display: inline-block;
-}
-.navbar-menu > * + * {
-     margin-left: 40px;
-}
-.navbar-menu li a {
-     display: inline-block;
-     font-family: Roboto;
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 24px;
-     letter-spacing: 0.02em;
-     text-align: left;
-     color: rgba(46, 47, 66, 1);
-     text-decoration: none;
-}
-.address {
-    font-style: normal
-}
-.call-info {
-          font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-.call-back a:focus {
-    color: #404bbf
-}
-.call-back a:hover {
-    color: #404bbf
-}
-.call-back  {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 0;
-    margin-left: 750px;
-    margin-right: 100px;
-}
-.call-back > * + * {
-    margin-left: 40px;    
-}
-.call-back li {
     display: inline-block;
 }
-.call-back li a {
-    font-family: Roboto;
+
+.navbar-menu>*+* {
+    margin-left: 40px;
+}
+
+.menu-nav {
+    font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    color: rgba(46, 47, 66, 1);
     text-decoration: none;
-    color: rgba(67, 68, 85, 1);
+}
+
+.contact-info {
+    font-style: normal;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.contact-link {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #434455;
+}
+
+.contact-link:focus,
+.contact-link:hover {
+    color: #404bbf;
 }
 
 
