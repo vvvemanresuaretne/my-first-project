@@ -4,6 +4,16 @@ body {
     color: #434455;
     background-color: #FFFFFF; 
 }
+/* Для первого элемента списка */
+.menu-nav li:first-child a:hover {
+    color: #404bbf;
+    /* Цвет при наведении */
+}
+
+.menu-nav li:first-child a:focus {
+    color: #404bbf;
+    /* Цвет при фокусе */
+}
 .menu-nav a:hover {
     color: #404bbf;
 }
