@@ -61,21 +61,9 @@ body {
 .navbar-menu > * + * {
      margin-left: 40px;
 }
-.navbar-menu li a {
-     display: inline-block;
-     font-family: Roboto;
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 24px;
-     letter-spacing: 0.02em;
-     text-align: left;
-     color: rgba(46, 47, 66, 1);
-     text-decoration: none;
+.address-info {
+    font-style: normal
 }
-header address[class~="addres"] {
-    font-style: normal;
-}
-
 .call-info {
     font-size: 16px;
         line-height: 1.5;
@@ -105,11 +93,11 @@ header address[class~="addres"] {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     text-decoration: none;
-    color: rgba(67, 68, 85, 1);
+    color: #434455;
 }
 
 
