@@ -256,79 +256,50 @@ list-style: none;
     color: #434455;
 }
                                              /* Our Portfolio */
-.our-portfolio-title {
-            font-family: Roboto;
-            font-size: 36px;
-            font-weight: 700;
-            line-height: 40px;
-            letter-spacing: 0.02em;
-            text-align: center;
-            margin-bottom: 72px;
-            margin-top: 0;
-}
 .our-portfolio-section {
    padding-top: 120px;
    padding-bottom: 120px;
-
  }
-.container-portfolio {
+ .portfolio-header {
+    font-size: 36px;
+    line-height: 1.11
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.wrapper-cards {
     max-width: 1128px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
-.portfolio-header {
-            font-family: Roboto;
-            font-size: 36px;
-            font-weight: 700;
-            line-height: 40px;
-            letter-spacing: 0.02em;
-            text-align: center;
+.portfolio-title-item {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2e2f42;
+}
+.desc-portfolio {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
 }
 .portfolio-card {
     max-width: 360px;
-    padding: 0;
     box-sizing: border-box;
     margin-bottom: 48px;
  }
-.card-img {
-    margin-bottom: 32px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-.portfolio-card p {
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-        margin: 0;
-}
-.wrapper-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.portfolio-title-item {
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    margin: 0;
-    margin-bottom: 13px;
-
-}
-.portfolio-desc-item {
-         font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-}
 .footer {
     height: 312px;
         width: 100%;
