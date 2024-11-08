@@ -57,7 +57,6 @@ body {
 }
 
 .menu-nav {
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -76,7 +75,6 @@ body {
 }
 
 .contact-list a {
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -183,11 +181,9 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
     background: #F4F4FD;
-    width: 100%;
 }
 
 .team-title {
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -211,7 +207,6 @@ body {
 .list-person {
     max-width: 264px;
     box-sizing: border-box;
-    margin-bottom: 0;
     border-radius: 8px;
     list-style-type: none;
     text-align: center;
@@ -232,7 +227,6 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 0;
     color: #434455;
 }
 
@@ -267,8 +261,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: left;
+    letter-spacing: 0.02em; 
     color: #2e2f42;
 }
 
