@@ -5,16 +5,11 @@ body {
     background-color: #FFFFFF; 
     width: 100%;
 }
-/* Для первого элемента списка */
-.navbar-container li:first-child a:hover {
-    color: #404bbf;
-    /* Цвет при наведении */
-}
-
+.navbar-container li:first-child a:hover,
 .navbar-container li:first-child a:focus {
     color: #404bbf;
-    /* Цвет при фокусе */
 }
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -30,7 +25,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
 }
 .navbar {
     padding-left: 156px;
@@ -56,15 +50,12 @@ body {
 }
 
 .brand-logo {
-    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     color: rgba(46, 47, 66, 1);
-    text-transform: uppercase;
-    text-decoration: none;
 }
 
 .menu-nav {
@@ -271,7 +262,7 @@ list-style: none;
     margin-bottom: 72px;
 }
 .wrapper-cards {
-    max-width: 1128px;
+    max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 0;
@@ -295,7 +286,7 @@ list-style: none;
 
 }
 .portfolio-card {
-    max-width: 360px;
+    width: calc((100% / 3) - (24px * 2) / 3);
     box-sizing: border-box;
     margin-bottom: 48px;
  }
