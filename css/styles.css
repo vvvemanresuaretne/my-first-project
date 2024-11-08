@@ -1,19 +1,19 @@
 body {
     font-family: "Roboto", sans-serif;
-    margin: 0;
+    
     background-color: #FFFFFF;
     color: #434455;
 }
 .top-line {
-    height: 72px;
+    
     color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
+    
+   
 }
 .navbar {
-    display: flex;
-    align-items: center;
+ 
+    
 }
 .logo {
     font-family: Raleway, sans-serif;
@@ -36,7 +36,7 @@ body {
     
 }
 .navbar-container li {
-    margin-left: 40px;
+    
 }
 
 .navbar-container li:first-child a:hover,
@@ -45,9 +45,7 @@ body {
 }
 
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
     list-style-type: none;
 }
 .menu-nav {
@@ -65,7 +63,7 @@ body {
 }
 
 .contact-list {
-     display: flex;
+    
 }
 
 .contact-list a {
@@ -74,7 +72,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: #434455;
-    margin-left: 40px;
+ 
 }
 
 .contact-link:focus,
@@ -107,14 +105,14 @@ body {
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
-    padding: 16px 32px;
-    border-radius: 4px;
+    
+   
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 188px;
+    
+    
+    
 }
 .order-button:hover,
 .order-button:focus {
@@ -130,20 +128,16 @@ body {
     color: #4d5ae5;  
 }
 .facts {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1128px;
+    
+   
 }
 .box-list {
-    max-width: 264px;
+    
     list-style: none;
 }
 .facts-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+   
+   
 }
 .text-title {
     font-size: 20px;
@@ -161,8 +155,7 @@ body {
 
 /* OUR Team */
 .our-team-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+   
     background: #F4F4FD;
 }
 
@@ -171,26 +164,24 @@ body {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
+    
     margin-bottom: 72px;
     text-transform: capitalize;
     color: #2e2f42;
 }
 
 .team-person {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1140px;
-    margin-right: auto;
-    margin-left: auto;
+    
+    
+   
+   
 
 }
 
 .list-person {
-    max-width: 264px;
+ 
     list-style-type: none;
-    text-align: center;
+    
     background-color: #FFFFFF;
 }
 
@@ -213,8 +204,7 @@ body {
 
 /* Our Portfolio */
 .our-portfolio-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    
 
 }
 
@@ -223,19 +213,16 @@ body {
     line-height: 1.11;
     font-weight: 700;
     letter-spacing: 0.02em;
-    text-align: center;
+    
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
 }
 
 .wrapper-cards {
-    max-width: 1240px;
-    margin-left: auto;
-    margin-right: auto;
+    
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .portfolio-title-item {
@@ -253,15 +240,14 @@ body {
 }
 
 .portfolio-card {
-    width: calc((100% / 3) - (24px * 2) / 3);
+    
     margin-bottom: 48px;
 }
 
 .footer {
-    height: 312px;
+   
     background: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+   
 }
 
 .logo {
@@ -272,7 +258,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-left: 156px;
+    
 }
 
 .brand-footer {
@@ -283,6 +269,6 @@ body {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    margin-left: 156px;
-    max-width: 264px;
+  
+    
 }
