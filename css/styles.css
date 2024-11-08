@@ -103,8 +103,6 @@ body {
 .main-page {
     background: #2e2f42;
     text-align: center;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .main-page-title {
@@ -177,7 +175,6 @@ body {
 
 .box-list {
     max-width: 264px;
-    box-sizing: border-box;
     list-style: none;
 }
 
@@ -311,7 +308,6 @@ body {
 
 .portfolio-card {
     width: calc((100% / 3) - (24px * 2) / 3);
-    box-sizing: border-box;
     margin-bottom: 48px;
 }
 
