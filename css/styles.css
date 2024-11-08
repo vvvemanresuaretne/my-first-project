@@ -24,7 +24,11 @@ body {
         align-items: center;
 }
 .navbar {
-    display: inline-block;
+    padding-left: 156px;
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+
 }   
 .navbar-menu li {
     display: inline;
@@ -40,8 +44,7 @@ body {
     color: rgba(77, 90, 229, 1);
     text-transform: uppercase;
     text-decoration: none;
-    margin-left: 156px;
-    margin-right: -500px;
+    margin-right: 76px;
 }
 
 .brand-logo {
