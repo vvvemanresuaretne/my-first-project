@@ -250,6 +250,7 @@ list-style: none;
 .our-portfolio-section {
    padding-top: 120px;
    padding-bottom: 120px;
+   
  }
  .portfolio-header {
     font-size: 36px;
@@ -262,7 +263,7 @@ list-style: none;
     margin-bottom: 72px;
 }
 .wrapper-cards {
-    max-width: 1250px;
+    max-width: 1240px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 0;
