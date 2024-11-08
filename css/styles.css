@@ -264,7 +264,6 @@ list-style: none;
     font-size: 36px;
     line-height: 1.11;
     font-weight: 700;
-    line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -302,20 +301,13 @@ list-style: none;
  }
 .footer {
     height: 312px;
-        width: 100%;
-        background: #2e2f42;
-        padding-top: 100px;
-        padding-bottom: 100px;
- }
-.footer-disc {
-            color: #fff;
-            height: 72px;
-            top: 3128px;
-            left: 156px;
-            gap: 0px;
-            opacity: 0px;
- }
- .footer-brand {
+    width: 100%;
+    background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+   
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -323,25 +315,15 @@ list-style: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none; 
+    margin-left: 156px;
 }
-.logo-footer {
-    color: #f4f4fd  
+.brand-footer {
+    color: #f4f4fd;
 }
- .brand-footer-container a {
-   text-decoration: none;  
-    font-family: "Raleway", sans-serif
- }
- .container {
-    width: 1440px ;
-    margin-left: auto;
-    margin-right: auto;
- }
- .footer-text {
-    width: 264px;
-}
-.footer-disc p {
+.footer-disc {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    margin-left: 156px;
+    max-width: 264px;
 }
