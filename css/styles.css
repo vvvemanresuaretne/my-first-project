@@ -34,13 +34,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
-.navbar-menu li {
-    display: inline;
-}
-
 .logo {
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -59,7 +53,6 @@ body {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-align: left;
     color: rgba(46, 47, 66, 1);
 }
 
@@ -69,7 +62,6 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
     color: rgba(46, 47, 66, 1);
     text-decoration: none;
 }
@@ -80,9 +72,7 @@ body {
 }
 
 .contact-list {
-    list-style-type: none;
-    padding-left: 0;
-    display: flex;
+     display: flex;
 }
 
 .contact-list a {
@@ -110,7 +100,6 @@ body {
     line-height: 1.07;
     font-size: 56px;
     font-weight: 700;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-left: auto;
@@ -152,19 +141,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
+    color: #4d5ae5;  
 }
-
-.brand {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-}
-
 .facts {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -182,10 +160,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.box-list li {
-    text-align: left;
 }
 
 .text-title {
