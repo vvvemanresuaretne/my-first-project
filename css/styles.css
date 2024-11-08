@@ -106,7 +106,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     
-   
+    cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
@@ -164,7 +164,7 @@ body {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    
+    text-align: center;
     margin-bottom: 72px;
     text-transform: capitalize;
     color: #2e2f42;
@@ -213,7 +213,7 @@ body {
     line-height: 1.11;
     font-weight: 700;
     letter-spacing: 0.02em;
-    
+    text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
