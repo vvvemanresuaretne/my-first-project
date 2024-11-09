@@ -154,7 +154,9 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
+.box-list li:first-child {
+    width: calc((100% - 72px) / 4);
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -169,7 +171,7 @@ img {
 }
 .box-list {
     list-style: none;
-    width: calc((100% - 72px) / 4);
+    
 }
 
 .facts-menu {
@@ -177,8 +179,10 @@ img {
     flex-flow: row;
     gap: 24px;   
 }
-
-.facts-menu li:last-child {
+.имя_класса li:first-child {
+    width: calc((100% - 72px) / 4)
+}
+.team-person li:last-child {
     margin-right: 0;
 }
 .text-title {
