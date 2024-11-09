@@ -200,6 +200,10 @@ img {
     padding-bottom: 120px;
     background: #F4F4FD;
 }
+.our-team-section .container {
+    display: flex;
+    flex-flow: column;
+}
 
 .team-title {
     font-size: 36px;
@@ -221,15 +225,20 @@ img {
 .team-person li:last-child {
     margin-right: 0;
 }
+.team-person  {
+    width: calc((100% - 72px) / 4);
+    
+}
 .list-person {
-    border-top-right-radius: 4px;
-    border-bottom-left-radius: 4px;
     list-style-type: none;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-top-right-radius: 4px;
     border-bottom-left-radius: 4px;
     background-color: #FFFFFF;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+   
 }
 .work-position {
     padding-top: 32px;
@@ -260,7 +269,10 @@ img {
     padding-bottom: 120px;
 
 }
-
+.our-portfolio-section .container {
+    display: flex;
+    flex-flow: column;
+}
 .portfolio-header {
     font-size: 36px;
     line-height: 1.11;
@@ -278,6 +290,7 @@ img {
     list-style-type: none;
     column-gap: 24px;
     row-gap: 48px;
+    
     
 }
 .wrapper-cards li:last-child {
@@ -305,8 +318,8 @@ img {
 }
 
 .portfolio-card {
-    width: calc((100% - 48px) / 3);
     margin-bottom: 48px;
+    width: calc((100% - 48px) / 3);
 }
 
 .footer {
@@ -326,6 +339,7 @@ img {
     color: #4d5ae5;
     margin-bottom: 16px;
     display: inline-block;
+    
     
 
 }
