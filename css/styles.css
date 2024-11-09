@@ -328,7 +328,10 @@ img {
     background: #2e2f42;
    
 }
-
+.footer .container {
+    display: flex;
+    flex-flow: column;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -339,6 +342,7 @@ img {
     color: #4d5ae5;
     margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
     
     
 
@@ -352,6 +356,7 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-top: 0;
   
     
 }
