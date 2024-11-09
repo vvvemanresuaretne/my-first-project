@@ -1,8 +1,16 @@
 body {
     font-family: "Roboto", sans-serif;
-    
     background-color: #FFFFFF;
     color: #434455;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1158px;
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .top-line {
     
