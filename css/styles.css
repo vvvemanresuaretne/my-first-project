@@ -231,8 +231,9 @@ img {
     background-color: #FFFFFF;
 }
 .work-position {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 }
 .name-title {
     text-align: center;
