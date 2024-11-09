@@ -166,18 +166,19 @@ img {
 .box-list {
     list-style: none;
 }
-.box-list {
-    flex-basis: calc((100% - 72px) / 4);
-}
+
 .facts-menu {
     display: flex;
     flex-flow: row;
-    gap: 24px;
+    gap: 24px;   
 }
+
 .facts-menu li:last-child {
     margin-right: 0;
 }
-
+.facts-menu li:first-child {
+    width: calc((100% - 72px) / 4);
+}
 .text-title {
     margin-bottom: 8px;
     font-size: 20px;
@@ -220,9 +221,11 @@ img {
 .team-person li:last-child {
     margin-right: 0;
 }
+.team-person li:first-child {
+    width: calc((100% - 48px) / 3);
+}
 .list-person {
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
     list-style-type: none;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
