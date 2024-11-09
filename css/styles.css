@@ -21,11 +21,12 @@ img {
 .top-line {
     border-bottom: 1px solid #e7e9fc;
     color: #fff; 
+   
 }
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   display: flex;
+   align-items: center;   
 }
 .logo {
     font-family: Raleway, sans-serif;
@@ -37,7 +38,7 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 76px;
-    
+    margin-top: 18px;
 }
 
 .brand-logo {
@@ -74,6 +75,7 @@ img {
 .contact-info {
     display: flex;
     font-style: normal;
+    margin-left: 200px;
     
 }
 .contact-list {
@@ -290,6 +292,7 @@ img {
     list-style-type: none;
     column-gap: 24px;
     row-gap: 48px;
+   
     
     
 }
@@ -320,7 +323,9 @@ img {
 .portfolio-card {
     margin-bottom: 48px;
     width: calc((100% - 48px) / 3);
+    overflow: hidden;
 }
+
 
 .footer {
    padding-top: 100px;
