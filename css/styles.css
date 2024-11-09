@@ -151,7 +151,17 @@ img {
 .facts {
     padding-top: 120px;
     padding-bottom: 120px;
-   
+}
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+        white-space: nowrap;
 }
 .box-list {
     list-style: none;
@@ -211,6 +221,7 @@ img {
     margin-right: 0;
 }
 .list-person {
+    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
     list-style-type: none;
     border-top-left-radius: 0px;
@@ -304,7 +315,6 @@ img {
 }
 
 .logo {
-    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -315,7 +325,9 @@ img {
     margin-bottom: 16px;
     
 }
-
+.logo a {
+    display: inline-block;
+}
 .brand-footer {
     color: #f4f4fd;
 }
