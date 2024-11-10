@@ -155,8 +155,8 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.facts-menu .box-list:first-child {
-    width: calc((1158px - 3 * 24px) / 4);
+.facts-menu .box-list:nth-child(1) {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .visually-hidden {
