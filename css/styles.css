@@ -176,6 +176,8 @@ img {
     display: flex;
     flex-flow: row;
     gap: 24px;   
+    margin: 0;
+    padding-left: 0;
 }
 
 .team-person li:last-child {
@@ -222,6 +224,8 @@ img {
     gap: 24px;
     display: flex;
     flex-flow: row;
+    margin: 0;
+    padding-left: 0;
 
 }
 .team-person li:last-child {
@@ -285,6 +289,8 @@ img {
     list-style-type: none;
     column-gap: 24px;
     row-gap: 48px;   
+    margin: 0;
+    padding-left: 0;
 }
 .wrapper-cards li:last-child {
     margin-right: 0;
