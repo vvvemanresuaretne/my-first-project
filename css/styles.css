@@ -399,15 +399,19 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
 }
 .social-list-style {
     width: 40px;
-    height: 40px;``
+    height: 40px;
+    
 }
 .social-link-footer:hover,
 .social-link-footer:focus {
 background-color: #31d0aa;
+background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .icon-social {
     fill: #f4f4fd;
