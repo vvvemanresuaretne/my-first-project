@@ -32,6 +32,9 @@ img {
    display: flex;
    align-items: center;  
 }
+.navbar .logo {
+    position: relative;
+}
 .logo {
     color: #404bbf;
     font-family: Raleway, sans-serif;
@@ -44,7 +47,7 @@ img {
     margin-right: 76px;
     margin-top: 18px;
 }
-.container::after {
+::after {
     content: '';
     width: 100%;
     position: absolute;
@@ -67,9 +70,7 @@ img {
     color: #404bbf;
     transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navbar-container .navbar-menu:first-child  {
-    position: relative;
-}
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
