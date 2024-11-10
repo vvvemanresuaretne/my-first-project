@@ -44,7 +44,7 @@ img {
     margin-right: 76px;
     margin-top: 18px;
 }
-.topline::after {
+.container::after {
     content: '';
     width: 100%;
     position: absolute;
