@@ -154,7 +154,7 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.box-list li:first-child {
+.facts-menu li:first-child {
     width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
@@ -179,9 +179,7 @@ img {
     flex-flow: row;
     gap: 24px;   
 }
-.имя_класса li:first-child {
-    width: calc((100% - 72px) / 4)
-}
+
 .team-person li:last-child {
     margin-right: 0;
 }
@@ -221,7 +219,13 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
 }
-
+.team-person li:first-child {
+    width: calc((100% - 72px) / 4);
+    border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+}
 .team-person {
     gap: 24px;
     display: flex;
@@ -237,10 +241,6 @@ img {
 }
 .list-person {
     list-style-type: none;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-top-right-radius: 4px;
-    border-bottom-left-radius: 4px;
     background-color: #FFFFFF;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
