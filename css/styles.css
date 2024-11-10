@@ -155,10 +155,6 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.facts-menu .box-list:nth-child(1) {
-    width: calc((100% - 3 * 24px) / 4);
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -172,7 +168,8 @@ img {
     overflow: hidden;
 }
 .box-list {
-    list-style: none;  
+    list-style: none; 
+    width: calc((100% - 3* 24px) / 4);
 }
 
 .facts-menu {
@@ -234,9 +231,7 @@ img {
     list-style-type: none;
     background-color: #FFFFFF;  
 }
-.team-person .list-person:first-child {
-    flex-basis: calc((100% - 72px) / 4);
-}
+
 .team-person .list-person:first-child {
     border-radius: 0px 0px 4px 4px;
 }
@@ -295,10 +290,6 @@ img {
     margin-right: 0;
     margin-bottom: 0;
 }
-
-.wrapper-cards .portfolio-card:first-child {
-    width: calc((100% - 48px) / 3);
-}
 .portfolio-title-item {
     font-size: 20px;
     font-weight: 500;
@@ -322,6 +313,7 @@ img {
 .portfolio-card {
     margin-bottom: 48px;
     overflow: hidden;
+    width: calc((100% - 48px) / 3);
 }
 
 
@@ -352,7 +344,5 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 0;
-  
-    
+    margin-top: 0;  
 }
