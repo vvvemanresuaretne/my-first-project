@@ -285,7 +285,7 @@ img {
 
 .wrapper-cards {
     display: flex;
-    flex-wrap: wrap;
+    
     list-style-type: none;
     column-gap: 24px;
     row-gap: 48px;   
@@ -294,7 +294,7 @@ img {
     margin-right: 0;
     margin-bottom: 0;
 }
-.wrapper-cards .portfolio-card:first-child {
+.wrapper-cards:first-child {
     width: calc((100% - 48px) / 3);
 }
 .portfolio-title-item {
@@ -319,7 +319,6 @@ img {
 
 .portfolio-card {
     margin-bottom: 48px;
-    width: calc((100% - 48px) / 3);
     overflow: hidden;
 }
 
