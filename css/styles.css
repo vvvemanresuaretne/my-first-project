@@ -44,7 +44,7 @@ img {
     margin-right: 76px;
     margin-top: 18px;
 }
-::after {
+.topline::after {
     content: '';
     width: 100%;
     position: absolute;
@@ -67,7 +67,9 @@ img {
     color: #404bbf;
     transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.navbar-container .navbar-menu:first-child  {
+    position: relative;
+}
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -85,6 +87,7 @@ img {
     letter-spacing: 0.02em;
     color: rgba(46, 47, 66, 1);
     text-decoration: none;
+    
     
 
 }
