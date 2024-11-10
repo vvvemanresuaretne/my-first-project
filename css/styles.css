@@ -406,7 +406,6 @@ img {
     background-color: #4d5ae5;
     height: 100%;
     width: 100%;
-    transform: translateY(100%);
 }
 .portfolio-card:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
