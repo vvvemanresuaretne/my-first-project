@@ -7,7 +7,6 @@ body {
 }
 .container {
     width: 1158px;
-    display: flex;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -23,7 +22,9 @@ img {
     color: #fff; 
    
 }
-
+.top-line .container {
+    display: flex;
+}
 .navbar {
    display: flex;
    align-items: center;   
@@ -220,11 +221,11 @@ img {
     color: #2e2f42;
 }
 .team-person li:first-child {
-    width: calc((100% - 72px) / 4);
+    
     border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-top-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+     border-top-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 .team-person {
     gap: 24px;
@@ -351,12 +352,6 @@ img {
     margin-bottom: 16px;
     display: inline-block;
 }  
-
-    
-.footer .container a {
-    display: inline-block;
-}
-
 .brand-footer {
     color: #f4f4fd;
 }
