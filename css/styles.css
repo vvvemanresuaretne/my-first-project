@@ -169,7 +169,7 @@ img {
 }
 .box-list {
     list-style: none; 
-    width: calc((100% - 3* 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .facts-menu {
