@@ -350,12 +350,15 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
-    display:inline-block;
+}  
+.logo a {
+display: inline-block;
+ }   
     
-    
-    
-
+.footer .container a {
+    display: inline-block;
 }
+
 .brand-footer {
     color: #f4f4fd;
 }
