@@ -180,6 +180,16 @@ img {
     list-style: none; 
     width: calc((100% - 3 * 24px) / 4);
 }
+.box-list-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
 .antenne {
     fill: #2a2a2a;
 }
@@ -239,15 +249,17 @@ img {
     padding-left: 0;
 
 }
-.team-person li {
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
+
 .team-person li:last-child {
     margin-right: 0;
 }
 .list-person {
     list-style-type: none;
-    background-color: #FFFFFF;  
+    background-color: #FFFFFF; 
+    box-shadow : 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-person .list-person:first-child {
