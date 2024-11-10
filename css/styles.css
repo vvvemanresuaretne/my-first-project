@@ -155,7 +155,7 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.facts .container .facts-menu li:first-child {
+ .facts-menu .box-list:first-child {
     width: calc((100% - 72px) / 4);
 
 }
@@ -231,16 +231,9 @@ img {
 .team-person li:last-child {
     margin-right: 0;
 }
-.team-person  {
-    width: calc((100% - 72px) / 4);
-    
-}
 .list-person {
     list-style-type: none;
-    background-color: #FFFFFF;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-   
+    background-color: #FFFFFF;  
 }
 .team-person .list-person:first-child {
     width: calc((100% - 3 * 24px) / 4);
@@ -297,14 +290,14 @@ img {
     flex-wrap: wrap;
     list-style-type: none;
     column-gap: 24px;
-    row-gap: 48px;
-   
-    
-    
+    row-gap: 48px;   
 }
 .wrapper-cards li:last-child {
     margin-right: 0;
     margin-bottom: 0;
+}
+.wrapper-cards .portfolio-card:first-child {
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-title-item {
     font-size: 20px;
