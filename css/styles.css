@@ -155,8 +155,9 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.box-list li:first-child {
+.facts .container .facts-menu li:first-child {
     width: calc((100% - 72px) / 4);
+    
 }
 .visually-hidden {
     position: absolute;
