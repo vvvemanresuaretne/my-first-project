@@ -155,9 +155,8 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
- .facts-menu .box-list:first-child {
-    width: calc((100% - 72px) / 4);
-
+.facts-menu:first-child {
+    flex-basis: calc((100% - 72px) / 4);
 }
 .visually-hidden {
     position: absolute;
@@ -172,8 +171,7 @@ img {
     overflow: hidden;
 }
 .box-list {
-    list-style: none;
-    
+    list-style: none;  
 }
 
 .facts-menu {
@@ -236,7 +234,7 @@ img {
     background-color: #FFFFFF;  
 }
 .team-person .list-person:first-child {
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .team-person .list-person:first-child {
     border-radius: 0px 0px 4px 4px;
@@ -332,9 +330,7 @@ img {
     background: #2e2f42;
    
 }
-.footer .container {
-   
-}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
