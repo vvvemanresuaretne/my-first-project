@@ -99,6 +99,10 @@ img {
 
 .main-page {
     background: #2e2f42;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-compresst.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -171,7 +175,9 @@ img {
     list-style: none; 
     width: calc((100% - 3 * 24px) / 4);
 }
-
+.antenne {
+    fill: #2a2a2a;
+}
 .facts-menu {
     display: flex;
     flex-flow: row;
