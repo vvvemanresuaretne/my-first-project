@@ -30,10 +30,9 @@ img {
 }
 .navbar {
    display: flex;
-   align-items: center;   
+   align-items: center;  
 }
 .logo {
-    position: relative;
     color: #404bbf;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -75,6 +74,7 @@ img {
     align-items: center;
     gap: 40px;
     list-style-type: none;
+    position: relative;
 }
 .menu-nav {
     padding-top: 24px;
@@ -85,6 +85,7 @@ img {
     letter-spacing: 0.02em;
     color: rgba(46, 47, 66, 1);
     text-decoration: none;
+    
 
 }
 .contact-info {
@@ -384,8 +385,13 @@ img {
     margin-bottom: 48px;
     overflow: hidden;
     width: calc((100% - 48px) / 3);
+    
 }
-
+.portfolio-card:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .footer {
    padding-top: 100px;
