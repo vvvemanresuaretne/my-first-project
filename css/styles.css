@@ -34,6 +34,8 @@ img {
 }
 .menu-nav:first-child {
     color: #404bbf;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo {
     font-family: Raleway, sans-serif;
