@@ -20,7 +20,9 @@ img {
 .top-line {
     border-bottom: 1px solid #e7e9fc;
     color: #fff; 
-    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
    
 }
 .top-line .container {
@@ -31,18 +33,28 @@ img {
    align-items: center;   
 }
 .logo {
+    position: relative;
+    color: #404bbf;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.03em;
     line-height: 1.17;
-    color: rgba(77, 90, 229, 1);
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 76px;
     margin-top: 18px;
 }
-
+::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
 .brand-logo {
     font-size: 18px;
     font-weight: 700;
@@ -54,6 +66,7 @@ img {
 .navbar-container li:first-child a:hover,
 .navbar-container li:first-child a:focus {
     color: #404bbf;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navbar-container {
@@ -84,6 +97,7 @@ img {
     display: flex;
     gap: 40px;  
     list-style-type: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-list a {
     font-size: 16px;
