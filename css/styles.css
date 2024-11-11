@@ -475,14 +475,16 @@ img {
     margin-top: 0;  
 }
 .social-titel-footer {
+    margin: 0;
+    padding: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
-    margin-left: 40px;
-    padding: 0;
+    
+
 }
 .social-box-icon {
     margin-top: 0;
