@@ -416,6 +416,11 @@ img {
     overflow: hidden;
 
 }
+.portfolio-card:hover .text-portfolio-style {
+    transform: translateY(0%);
+
+
+}
 .text-portfolio-style {
     position: absolute;
     top: 0;
