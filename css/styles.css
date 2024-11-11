@@ -288,11 +288,14 @@ img {
     background-color: #FFFFFF; 
         
 }
-
+.list-icon-team-social:first-child .link-team-social{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .team-person .list-person:first-child {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 .work-position {
     padding-top: 32px;
     padding-bottom: 32px;
