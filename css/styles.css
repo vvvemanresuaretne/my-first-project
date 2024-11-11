@@ -24,11 +24,12 @@ img {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
-    
-   
+      
 }
 .top-line .container {
     display: flex;
+    justify-content: space-between;
+    
 }
 .navbar {
    display: flex;
@@ -50,7 +51,7 @@ img {
     margin-right: 76px;
     margin-top: 18px;
 }
-::after {
+  ::after {
     content: '';
     width: 100%;
     position: absolute;
@@ -81,6 +82,8 @@ img {
     gap: 40px;
     list-style-type: none;
     position: relative;
+    margin: 0;
+        padding-left: 0;
 }
 .menu-nav {
     padding-top: 24px;
@@ -98,7 +101,8 @@ img {
 .contact-info {
     display: flex;
     font-style: normal;
-    margin-left: 200px;
+    align-items: center;
+   
     
 }
 .contact-list {
@@ -106,6 +110,8 @@ img {
     gap: 40px;  
     list-style-type: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0;
+        padding-left: 0;
 }
 .contact-list a {
     font-size: 16px;
@@ -271,10 +277,11 @@ img {
     flex-flow: row;
     margin: 0;
     padding-left: 0;
+    
    
     
 }
-.list-person:first-child {
+.team-person .list-person:first-child {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -327,6 +334,8 @@ img {
     justify-content: center;
     gap: 24px;
     list-style-type: none;
+    margin: 0;
+        padding-left: 0;
     
    
 
@@ -505,6 +514,8 @@ img {
     display: flex;
     gap: 16px;
     list-style-type: none;
+    margin: 0;
+        padding-left: 0;
 }
 
 .social-link-footer {
