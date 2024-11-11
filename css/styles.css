@@ -340,13 +340,13 @@ img {
  .link-team-social:hover {
     background-color: #404bbf;
 }
-.list-person-social a:focus {
+.link-team-social:focus {
     background-color: #404bbf;
 }
 .team-icon-social {
     fill: #f4f4fd;
 }
-.link-team-social a:first-child {
+.link-team-social {
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Our Portfolio */
