@@ -133,13 +133,14 @@ img {
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-compresst.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    text-align: center;
+    background-size: contain;
+    text-align: cover;
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+   
    
 }
 .main-page .container  {
@@ -277,11 +278,8 @@ img {
     flex-flow: row;
     margin: 0;
     padding-left: 0;
-    
-   
-    
 }
-.taem-person li:first-child .list-person{
+ li .list-person{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -464,6 +462,7 @@ img {
    padding-top: 100px;
    padding-bottom: 100px;
     background: #2e2f42;
+
    
 }
 .footer .container {
