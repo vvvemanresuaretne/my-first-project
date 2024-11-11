@@ -343,6 +343,9 @@ img {
 .link-team-social:focus {
     background-color: #404bbf;
 }
+.team-icon-social {
+    fill: #f4f4fd;
+}
 /* Our Portfolio */
 .our-portfolio-section {
     padding-top: 120px;
