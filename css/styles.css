@@ -518,6 +518,6 @@ background-color: #31d0aa;
 .icon-social {
     fill: #f4f4fd;
 }
-.icon-social:first-child a {
+.social-list-style:first-child a {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
