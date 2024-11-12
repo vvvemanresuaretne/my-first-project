@@ -790,3 +790,7 @@ fill: #4D5AE5;
 .privacy-title input:checked {
     background-color: #404bbf;
 }
+
+input:hover .input-icon-modal {
+fill: #4D5AE5;
+}
