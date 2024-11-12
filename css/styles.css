@@ -622,7 +622,7 @@ background-color: #31d0aa;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 1;
+    opacity: 0;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -666,9 +666,9 @@ overflow-y: auto;
 
 .modal-page-button:hover,
 .modal-page-button:focus {
-    background-color: #404bbf !important;
-    border: none !important;
-    fill: #ffffff !important;
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff;
 }
 .botton-icon-modal {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -792,7 +792,3 @@ fill: #4D5AE5;
 }
 
 
-#user-privacy:checked+.name-label-privacy .privacy-title {
-    border: none;
-    /* стиль для span при активном чекбоксе */
-}
