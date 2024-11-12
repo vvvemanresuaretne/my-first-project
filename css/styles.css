@@ -784,7 +784,7 @@ fill: #4D5AE5;
 
 }
 
- .tolly[type="checkbox"]:checked+label .privacy-title {
+.toddi input[type="checkbox"]:checked+label .privacy-title {
      background-color: #404bbf;;
      border: none;
  }
