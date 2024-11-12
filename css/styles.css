@@ -784,7 +784,7 @@ fill: #4D5AE5;
 
 }
 
- .toddi-input:checked+.toddi-label+.input-icon-modal-span{
+ .toddi-input:checked+.input-icon-modal-span{
 background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
