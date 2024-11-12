@@ -663,7 +663,7 @@ overflow-y: auto;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal .modal-page-button:hover {
+ .modal-page-button:hover  {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
