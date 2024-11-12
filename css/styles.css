@@ -784,11 +784,8 @@ fill: #4D5AE5;
 
 }
 
- input[type="checkbox"]:checked+label .privacy-title {
+ .tolly[type="checkbox"]:checked+label .privacy-title {
      background-color: #404bbf;;
      border: none;
  }
- input[type="checkbox"]:checked+label .privacy-title svg {
-fill: #F4F4FD;
- }
-    
+ 
