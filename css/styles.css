@@ -706,10 +706,9 @@ overflow-y: auto;
 .input-label-modal:focus  {
 border-color: #4D5AE5;
 }
-.input-label-modal:focus+.input-icon-modal {
-    border-color: #4D5AE5;
-}
-.input-icon-modal .input-label-modal:focus {
+
+
+ .input-label-modal:focus+.input-icon-modal {
 fill: #4D5AE5;
 
 }
