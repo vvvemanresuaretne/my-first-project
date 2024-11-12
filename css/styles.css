@@ -784,10 +784,10 @@ fill: #4D5AE5;
 
 }
 
-.privacy-title input:checked {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
 
+.tolly:checked+.input-icon-modal-span {
+    background-color: #404bbf;
+        border: none;
+        fill: #F4F4FD;
+}
 
