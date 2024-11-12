@@ -784,10 +784,9 @@ fill: #4D5AE5;
 
 }
 
-
-
- .tolly:checked+.input-icon-modal-span {
-    background-color: #404bbf;
+ .toddi-input:checked+.toddi-label+.input-icon-modal-span{
+background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
  }
+ 
