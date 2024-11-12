@@ -786,7 +786,7 @@ fill: #4D5AE5;
 
 
 
- .input[type="checkbox"]:checked+.input-icon-modal-span {
+ .tolly:checked+.input-icon-modal-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
