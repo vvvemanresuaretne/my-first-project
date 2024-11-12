@@ -648,9 +648,7 @@ overflow-y: auto;
 .modal-page-button {
     position: absolute;
     top: 24px;
-    bottom: 24px;
     right: 24px;
-    left: 24px;
     width: 24px;
     height: 24px;
     border-radius: 50%;
@@ -741,7 +739,6 @@ fill: #4D5AE5;
 }
 .checkbox-modal {
     margin-bottom: 24px;
-
 }
 .name-label-privacy {
     font-size: 12px;
@@ -761,15 +758,13 @@ fill: #4D5AE5;
     justify-content: center;
     fill: transparent;
 }
-.input-icon-modal-span {
-
-}
-
 .privacy-link {
     color: #4d5ae5;
 }
 .button-last-modal {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
