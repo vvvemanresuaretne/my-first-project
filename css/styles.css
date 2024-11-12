@@ -785,7 +785,7 @@ fill: #4D5AE5;
 
 }
 
-#user-privacy:checked+.name-label-privacy .privacy-title{
+input:checked+.name-label-privacy .privacy-title {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
