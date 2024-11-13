@@ -654,10 +654,14 @@ opacity: 1;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-page-cross:hover .button-icon-modal path {
-    fill: #ffffff;
-}
 
+.button-cross-modal:hover {
+    background-color: #404bbf;
+    border: none;
+}
+.button-cross-modal:hover .button-icon-modal {
+    fill: #fff;
+}
 .button-cross-modal:focus {
     background-color: #404bbf;
     border: none;
