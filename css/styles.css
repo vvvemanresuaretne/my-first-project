@@ -661,17 +661,14 @@ opacity: 1;
 .button-cross-modal:hover {
     background-color: #404bbf;
     border: none;
-    fill: #fff;
-    /*fill: #fff;*/
 }
 .button-cross-modal:hover .button-icon-modal {
     fill: #ffffff;
 }
 .button-cross-modal:focus {
-     background-color: #404bbf;
-     border: none;
-     fill: #fff;
-     /*fill: #fff;*/
+    background-color: #404bbf;
+    border: none;
+
  }
 
 .button-cross-modal:focus .button-icon-modal {
@@ -773,9 +770,11 @@ fill: #4D5AE5;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 .privacy-link {
     color: #4d5ae5;
+    margin-left: 6px;
 }
 .button-last-modal {
     display: block;
@@ -796,7 +795,7 @@ fill: #4D5AE5;
 
 }
 
-.checkbox-inp:checked + .name-label-privacy > span {
+.checkbox-inp:checked + .name-label-privacy span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
