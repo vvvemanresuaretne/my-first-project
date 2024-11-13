@@ -640,11 +640,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 padding: 72px 24px 24px 24px;
 gap: 0px;
 opacity: 1;
-max-width: 408px;
-max-height: 80%;
-overflow-y: auto;
 }
-.modal-page-cross {
+.button-icon-modal {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -680,7 +677,7 @@ overflow-y: auto;
     .modal-page-cross:focus .button-icon-modal {
         fill: #fff;
 }
-.botton-icon-modal {
+.button-icon-modal {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-desc {
@@ -800,7 +797,7 @@ fill: #4D5AE5;
 }
 
 .colli:checked+.name-label-privacy > span {
-    background-color: #404bbf;;
+    background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
  }
