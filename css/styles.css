@@ -661,11 +661,25 @@ overflow-y: auto;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-page-cross:focus,
+
 .modal-page-cross:hover {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
+    /*fill: #ffffff;*/
+}
+.modal-page-cross:hover .button-icon-modal {
+    fill: #ffffff;
+}
+.modal-page-cross:focus {
+        background-color: #404bbf;
+        border: none;
+        fill: #ffffff;
+        /*fill: #ffffff;*/
+ }
+
+    .modal-page-cross:focus .button-icon-modal {
+        fill: #ffffff;
 }
 .botton-icon-modal {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
