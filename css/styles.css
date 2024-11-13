@@ -798,7 +798,7 @@ fill: #4D5AE5;
 
 }
 
-.modal-form .colli:checked + label .privacy-title {
+.colli:checked + label .privacy-title {
     background-color: #404bbf;;
     border: none;
     fill: #F4F4FD;
