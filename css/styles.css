@@ -796,7 +796,7 @@ fill: #4D5AE5;
 
 }
 
-.checkbox-inp:checked + .name-label-privacy > .privacy-title {
+.checkbox-inp:checked + .name-label-privacy > span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
