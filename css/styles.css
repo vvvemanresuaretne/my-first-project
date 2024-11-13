@@ -607,10 +607,7 @@ background-color: #31d0aa;
     margin-left: 16px;
 }
 
-.model-overlay .is-open {
-    opacity: 1;
-    pointer-events: auto;
-}
+
 .modal-overlay {
     background-color: rgba(46, 47, 66, 0.4);
     position: fixed;
@@ -626,7 +623,10 @@ background-color: #31d0aa;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
-
+.model-overlay .is-open {
+    opacity: 1;
+    pointer-events: auto;
+}
 .modal {
 width: 408px;
 position: absolute;
@@ -640,7 +640,7 @@ border-radius: 4px;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 padding: 72px 24px 24px 24px;
 gap: 0px;
-opacity: 0px;
+opacity: 1;
 max-width: 408px;
 max-height: 80%;
 overflow-y: auto;
