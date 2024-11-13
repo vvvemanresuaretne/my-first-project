@@ -796,7 +796,7 @@ fill: #4D5AE5;
 
 }
 
-.modal-form input:checked+.name-label-privacy {
+.checkbox-inp:checked + .name-label-privacy > .privacy-title {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
