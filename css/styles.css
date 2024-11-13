@@ -784,12 +784,10 @@ fill: #4D5AE5;
 
 }
 
-input[type="checkbox"]:checked+label {
-     background-color: #404bbf;;
-     border: none;
+.modal-form input[type="checkbox"]:checked + label .privacy-title {
+    background-color: #404bbf;;
+    border: none;
+    fill: #F4F4FD;
  }
  
- .modal-page-cross:hover .botton-icon-modal {
-     fill: #ffffff;
-     /* Ensure fill color is applied on hover */
- }
+ 
