@@ -660,7 +660,7 @@ opacity: 1;
     border: none;
 }
 .button-cross-modal:hover .button-icon-modal {
-    fill: #fff;
+    fill: #ffffff;
 }
 .button-cross-modal:focus {
     background-color: #404bbf;
@@ -786,7 +786,7 @@ fill: #4D5AE5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-inp:checked + .name-label-privacy span {
+.checkbox-inp:checked+.name-label-privacy span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
