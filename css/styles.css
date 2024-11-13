@@ -796,7 +796,7 @@ fill: #4D5AE5;
 
 }
 
-.colli:checked+.name-label-privacy > span {
+.modal-form input:checked+.name-label-privacy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
