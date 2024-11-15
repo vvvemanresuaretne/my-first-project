@@ -3,7 +3,6 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,9 +27,9 @@
         <div class="container">
             <nav class="navbar">
                 <a class="logo" href="./index.html">Web<span class="brand-logo">Studio</span></a>
-                <ul class="navbar-container">
+                <ul class="navbar-container mobile-off">
                     <li class="navbar-menu">
-                        <a class="menu-nav current" href="./index.html">Studio</a>
+                        <a class="menu-nav current " href="./index.html">Studio</a>
                     </li>
                     <li class="navbar-menu">
                         <a class="menu-nav" href="">Portfolio</a>
@@ -40,7 +39,7 @@
                     </li>
                 </ul>
             </nav>
-            <address class="contact-info">
+            <address class="contact-info mobile-off">
                 <ul class="contact-list">
                     <li>
                         <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
@@ -64,7 +63,7 @@
                 <h2 class="visually-hidden">Наші переваги</h2>
                 <ul class="facts-menu">
                     <li class="box-list">
-                        <div class="box-list-icon-container">
+                        <div class="box-list-icon-container mobile-off">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-antenne"></use>
                             </svg>
@@ -76,7 +75,7 @@
                         </p>
                     </li>
                     <li class="box-list">
-                        <div class="box-list-icon-container">
+                        <div class="box-list-icon-container mobile-off">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-watch"></use>
                             </svg>
@@ -88,7 +87,7 @@
                         </p>
                     </li>
                     <li class="box-list">
-                        <div class="box-list-icon-container">
+                        <div class="box-list-icon-container mobile-off">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-computer"></use>
                             </svg>
@@ -100,7 +99,7 @@
                         </p>
                     </li>
                     <li class="box-list">
-                        <div class="box-list-icon-container">
+                        <div class="box-list-icon-container mobile-off">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-fly-man"></use>
                             </svg>
@@ -115,7 +114,7 @@
             </div>
         </section>
         <section class="our-team-section">
-            <div class="container">
+            <div class="container mobile">
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-person">
                     <li class="list-person">
@@ -331,7 +330,6 @@
                     </li>
                 </ul>
             </div>
-            `
         </section>
     </main>
     <footer class="footer">
@@ -383,7 +381,7 @@
             </div>
         </div>
     </footer>
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
         <div class="modal">
             <button type="button" class="button-cross-modal">
                 <svg class="button-icon-modal" width="8" height="8">
@@ -436,6 +434,37 @@
                 </div>
                 <button type="button" class="button-last-modal">Send</button>
             </form>
+        </div>
+    </div>
+    <!--Menu-Mobile-->
+    <div class="mobil-menu-overlay">
+        <div class="mobil-menu">
+            <div class="container">
+                <nav class="navbar">
+                    <a class="logo" href="./index.html">Web<span class="brand-logo">Studio</span></a>
+                    <ul class="navbar-container mobile-off">
+                        <li class="navbar-menu">
+                            <a class="menu-nav current " href="./index.html">Studio</a>
+                        </li>
+                        <li class="navbar-menu">
+                            <a class="menu-nav" href="">Portfolio</a>
+                        </li>
+                        <li class="navbar-menu">
+                            <a class="menu-nav" href="">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="contact-info mobile-off">
+                    <ul class="contact-list">
+                        <li>
+                            <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
         </div>
     </div>
 </body>
