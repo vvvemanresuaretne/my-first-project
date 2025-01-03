@@ -20,7 +20,7 @@ body {
         0px 1px 6px rgba(46, 47, 66, 0.08);
         max-width: 320px;
 }
- @media screen and (min-width: 767px) {
+ @media screen and (min-width: 768px) {
     .top-line {
     max-width: 768px;
     }}
@@ -35,7 +35,7 @@ body {
     padding-right: 16px;
     margin: 0 auto;
 }
-        @media screen and (min-width: 767px) {
+        @media screen and (min-width: 768px) {
             .container {
             max-width: 736px;
             }
@@ -407,7 +407,7 @@ p {
 .main-page-sec {
     max-width: 320px;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 .main-page-sec {
         max-width: 768px;
     }
@@ -431,7 +431,7 @@ p {
     padding-bottom: 72px;
      
 }
-@media screen and (max-width: 767px) and (min-resolution: 192dpi){
+@media screen and (max-width: 768px) and (min-resolution: 192dpi){
     .main-page {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
@@ -440,7 +440,7 @@ p {
        
     }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .main-page {
         background-image: linear-gradient(to bottom,
         rgba(46, 47, 66, 0.7),
@@ -449,7 +449,7 @@ p {
         max-width: 768px;
         }
 }
-@media screen and (min-width: 767px) and (min-resolution: 192dpi) {
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .main-page {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
@@ -515,7 +515,7 @@ p {
        
 }  
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .main-page-title {
         max-width: 496px;
         min-width: 216px;
@@ -645,7 +645,7 @@ p {
     max-width: 320px;
   
 }  
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .facts {
         max-width: 768px;
     }
@@ -804,7 +804,7 @@ p {
     background: #f4f4fd;
     display: flex; 
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .our-team-section{
         max-width: 768px;
     }
@@ -889,7 +889,7 @@ p {
     padding-left: 0;
     justify-content: center;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .team-person {
             display: flex;
             flex-direction: row;
@@ -1085,7 +1085,7 @@ p {
     max-width: 320px;
     
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .our-portfolio-section {
         max-width: 768px;
     }
@@ -1106,8 +1106,9 @@ p {
     color: #2e2f42;
     margin-bottom: 72px;
 }
-
-
+.portfolio-card {
+    list-style: none;
+}
 
 .wrapper-cards li:last-child {
     margin-right: 0;
@@ -1122,7 +1123,7 @@ p {
     justify-content: center;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .wrapper-cards {
         display: flex;
         flex-direction: row;
@@ -1190,8 +1191,8 @@ p {
     .portfolio-card {
             
             overflow: hidden;
-    
             transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
         }
 }
 @media screen and (min-width: 1158px) {
@@ -1201,22 +1202,24 @@ p {
         letter-spacing: 0.02em;
     }
 
-    .desc-portfolio:hover {
-        transform: translateY(0%);
-    }
+         .portfolio-card:hover .text-portfolio-style {
+             transform: translateY(0%);
+         }
 
     .portfolio-card {
         margin-bottom: 48px;
         overflow: hidden;
         width: calc((100% - 48px) / 3);
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
+    }}
+        @media (min-width:678px) and (max-width: 1157px) {
+            .portfolio-card { width: calc((100% - 24px) / 2);}}
+                       
     .container-portfolio-style {
         position: relative;
         overflow: hidden;
     }
-
+        
     .portfolio-card:hover .text-portfolio-style {
         transform: translateY(0%);
     }
@@ -1236,12 +1239,12 @@ p {
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin: 0;
     }
-}
+
 .container-portfolio-style {
 
     overflow: hidden;
 }
-@media screen and (min-width: 767px) { 
+@media screen and (min-width: 768px) { 
      .container-portfolio-style{
         flex-basis: calc((100% - 24px) / 2);
         align-items: center;
@@ -1275,7 +1278,7 @@ p {
     background: #2e2f42;
     max-width: 320px;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .footer {
         max-width: 768px;
     }
