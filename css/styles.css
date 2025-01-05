@@ -18,10 +18,11 @@ body {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
-        max-width: 320px;
+        
     padding-top: 16px;
     padding-bottom: 16px;
-        
+        margin: 0 auto;
+        max-width: 320px;
 }
  @media screen and (min-width: 768px) {
     .top-line {
@@ -36,6 +37,7 @@ body {
     max-width: 320px;
     padding-left: 16px;
     padding-right: 16px;
+    margin: 0 auto;
 }
         @media screen and (min-width: 768px) {
             .container {
@@ -227,6 +229,8 @@ body {
 }
 @media screen and (min-width: 768px) {
     .menu-nav {
+        padding-top: 24px;
+        padding-bottom: 24px;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -402,6 +406,7 @@ p {
         padding-top: 72px;
         padding-bottom: 72px;
         max-width: 320px;
+        margin: 0 auto;
 }
 
 
@@ -459,21 +464,7 @@ p {
 
     }
 }
-.main-page .container {
-    display: flex;
-    flex-flow: column;
-}
-@media (min-width: 768px) and (max-width: 1157px) {
-    .main-page .container {
-        display: flex;
-        flex-flow: column;
-        }
-}
-@media (min-width: 1158px) {
-    .main-page .container {
-            display: flex;
-            flex-flow: column;
-        }}
+
 
 .main-page-title {
     max-width: 216px;
@@ -811,6 +802,7 @@ p {
     padding-bottom: 96px;
     background: #f4f4fd;
     display: flex; 
+    margin: 0 auto; 
 }
 @media screen and (min-width: 768px) {
     .our-team-section{
@@ -1091,6 +1083,7 @@ p {
     padding-top: 96px;
     padding-bottom: 96px;
     max-width: 320px;
+    margin: 0 auto;
     
 }
 @media screen and (min-width: 768px) {
@@ -1221,7 +1214,7 @@ p {
         width: calc((100% - 48px) / 3);
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }}
-        @media (min-width:678px) and (max-width: 1157px) {
+        @media (min-width: 768px) and (max-width: 1157px) {
             .portfolio-card { width: calc((100% - 24px) / 2);}}
                        
     .container-portfolio-style {
@@ -1286,6 +1279,7 @@ p {
     padding-bottom: 96px;
     background: #2e2f42;
     max-width: 320px;
+    margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
     .footer {
