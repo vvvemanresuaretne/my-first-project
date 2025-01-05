@@ -1764,9 +1764,7 @@ flex-direction: column;
 justify-content: space-between;
 gap: 168px;
 }   
-.navbar-page {
-   
-}
+
 .mobile-menu-list-page {
     display: block;
     list-style-type: none;
